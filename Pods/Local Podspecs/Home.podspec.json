@@ -19,11 +19,24 @@
     "ios": "14.0"
   },
   "source_files": "Home/Classes/**/*",
+  "dependencies": {
+    "CoreEntities": [
+
+    ]
+  },
   "testspecs": [
     {
       "name": "IntegratedTest",
       "test_type": "unit",
       "source_files": "Home/Tests/IntegratedTests/**/*"
+    },
+    {
+      "name": "UnitTests",
+      "test_type": "unit",
+      "source_files": [
+        "Home/Tests/UnitTests/**/*",
+        "Home/Tests/Mocks/**/*"
+      ]
     }
   ]
 }

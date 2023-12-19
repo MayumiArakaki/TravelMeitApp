@@ -9,5 +9,7 @@ target 'TravelMeit' do
   pod 'FirebaseFirestore'
   
   pod 'Login', :path => '../Login'
-  pod 'Home', :path => '../Home', :testspecs => ['IntegratedTest']
+  pod 'Home', :path => '../Home', :testspecs => ['IntegratedTest', 'UnitTests']
+  pod 'CoreEntities', :path => '../CoreEntities'
+  
 end
