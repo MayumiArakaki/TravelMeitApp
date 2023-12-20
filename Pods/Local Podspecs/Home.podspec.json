@@ -35,7 +35,8 @@
       "test_type": "unit",
       "source_files": [
         "Home/Tests/UnitTests/**/*",
-        "Home/Tests/Mocks/**/*"
+        "Home/Tests/Mocks/**/*",
+        "Home/Tests/Spies/**/*"
       ]
     }
   ]
