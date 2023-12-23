@@ -634,6 +634,7 @@ PODS:
   - BoringSSL-GRPC/Implementation (0.0.24):
     - BoringSSL-GRPC/Interface (= 0.0.24)
   - BoringSSL-GRPC/Interface (0.0.24)
+  - CoreBootcamp (0.1.0)
   - CoreEntities (0.1.0)
   - FirebaseAppCheckInterop (10.19.0)
   - FirebaseAuth (10.19.0):
@@ -749,10 +750,13 @@ PODS:
   - gRPC-Core/Interface (1.49.1)
   - GTMSessionFetcher/Core (3.2.0)
   - Home (0.1.0):
+    - CoreBootcamp
     - CoreEntities
   - Home/IntegratedTest (0.1.0):
+    - CoreBootcamp
     - CoreEntities
   - Home/UnitTests (0.1.0):
+    - CoreBootcamp
     - CoreEntities
   - leveldb-library (1.22.2)
   - Login (0.1.0):
@@ -768,6 +772,7 @@ PODS:
   - RecaptchaInterop (100.0.0)
 
 DEPENDENCIES:
+  - CoreBootcamp (from `../CoreBootcamp`)
   - CoreEntities (from `../CoreEntities`)
   - FirebaseAuth
   - FirebaseFirestore
@@ -798,6 +803,8 @@ SPEC REPOS:
     - RecaptchaInterop
 
 EXTERNAL SOURCES:
+  CoreBootcamp:
+    :path: "../CoreBootcamp"
   CoreEntities:
     :path: "../CoreEntities"
   Home:
@@ -808,6 +815,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   abseil: 926fb7a82dc6d2b8e1f2ed7f3a718bce691d1e46
   BoringSSL-GRPC: 3175b25143e648463a56daeaaa499c6cb86dad33
+  CoreBootcamp: ff49c1b8e91a4ac7c56a8699b8fa7e85f97f523c
   CoreEntities: 3eda844b72a17f2a91e764c16355422eea4d6772
   FirebaseAppCheckInterop: 37884781f3e16a1ba47e7ec80a1e805f987788e3
   FirebaseAuth: 2492acdcd1245d841fabdf58a050d6aa07dfce3f
@@ -821,13 +829,13 @@ SPEC CHECKSUMS:
   "gRPC-C++": 2df8cba576898bdacd29f0266d5236fa0e26ba6a
   gRPC-Core: a21a60aefc08c68c247b439a9ef97174b0c54f96
   GTMSessionFetcher: 41b9ef0b4c08a6db4b7eb51a21ae5183ec99a2c8
-  Home: a7330d8d1ea5d0ebab7e4e4a4eed34784cebb563
+  Home: 2a30b2a1e8c9b184af5203e4414bec1954cf31ba
   leveldb-library: f03246171cce0484482ec291f88b6d563699ee06
   Login: 863e4a51c947e0e8f95975906f1dc96053e913f6
   nanopb: d4d75c12cd1316f4a64e3c6963f879ecd4b5e0d5
   PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
 
-PODFILE CHECKSUM: 98dc04b04c7d754cdfa087ca42b5c93c076174c6
+PODFILE CHECKSUM: f2654f5292733d5bd69d175874a39eabc2de78e1
 
 COCOAPODS: 1.12.1

@@ -11,6 +11,6 @@ target 'TravelMeit' do
   pod 'Login', :path => '../Login'
   pod 'Home', :path => '../Home', :testspecs => ['IntegratedTest', 'UnitTests']
   pod 'CoreEntities', :path => '../CoreEntities'
-
+  pod 'CoreBootcamp', :path => '../CoreBootcamp'
 
 end

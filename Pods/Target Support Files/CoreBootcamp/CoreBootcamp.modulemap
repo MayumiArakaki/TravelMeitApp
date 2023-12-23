@@ -1,0 +1,6 @@
+framework module CoreBootcamp {
+  umbrella header "CoreBootcamp-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "312AC89EA5740958D05C0FE46A095A89"
-               BuildableName = "Home.framework"
-               BlueprintName = "Home"
+               BlueprintIdentifier = "11CA48D24839D1C0F17AE55BC13D6A2C"
+               BuildableName = "CoreBootcamp.framework"
+               BlueprintName = "CoreBootcamp"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CEFEAE9E9683188FF77CC0E4228FDC8F"
-               BuildableName = "Home-Unit-IntegratedTest.xctest"
-               BlueprintName = "Home-Unit-IntegratedTest"
-               ReferencedContainer = "container:Pods.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A12F858FE7FE12B0E11FC475D9C59AEC"
-               BuildableName = "Home-Unit-UnitTests.xctest"
-               BlueprintName = "Home-Unit-UnitTests"
-               ReferencedContainer = "container:Pods.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

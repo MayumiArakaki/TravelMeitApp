@@ -178,10 +178,12 @@ code_sign_if_enabled() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Home/Home.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CoreEntities/CoreEntities.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CoreBootcamp/CoreBootcamp.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Home/Home.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CoreEntities/CoreEntities.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CoreBootcamp/CoreBootcamp.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
